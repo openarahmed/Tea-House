@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+        }
+        .sub-one{
+            width: 50%;
+            padding: 20px;
+            padding: 10px;
+        }
+        .sub-two{
+            width: 40%;
+            gap: 30px;
+        }
+        .container{
+            background-color: rgba(165, 42, 42, 0.256);
+           
+            
+        }
+        .content{
+            background-color: white;
+            padding: 10px;
+            
+           
+           widht: 75%;
+           border-radius: 20px;
+           
+            
+        }
+        .one{
+           position: relative;
+           top: 50px;
+           opacity: 25%;
+        }
+        .two{
+           position: relative;
+           right: 100px;
+           z-index: 555;
+        }
+        .three{
+            position: relative;
+            bottom: 50px;
+            opacity: 25%;
+        }
+        .client{
+            position: relative;
+            height: 100px;
+            width: 100px;
+            bottom: 270px;
+            right: 70px;
+        }
+        @media screen and (max-width: 600px) {
+
+            
+            .main{
+                flex-direction: column;
+                justify-content: ;
+                
+            }
+            .sub-one{
+                width: 100%;
+            }
+            .sub-two{
+                width: 100%;
+            }
+            .content{
+                width: 75%;
+            }
+            .one{
+                left: 120px;
+            }
+            .two{
+                left: 50px;
+            }
+            .three{
+                left: 120px;
+            }
+            .client{
+            
+            bottom: 340px;
+            right: 66px;
+            
+        }
+}
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="main">
+            <div class="sub-one">
+                <div class="">
+                    <h1>Meet Our Super Clients</h1>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                </div>
+                <button>read more</button>
+            </div>
+            <div class="sub-two">
+                <div class="content one">
+                    <h1>We are providing the best and suitable home insurance services for the people who are interested to treatment</h1>            
+                    <h1>Ilham Yuda</h1>              
+                    <h1>Businessman</h1>
+                </div>
+                <div class="content two">
+                    <h1>We are providing the best and suitable home insurance services for the people who are interested to treatment</h1>            
+                    <h1>Ilham Yuda</h1>              
+                    <h1>Businessman</h1>
+                    <img class="client" src="./tea-house-resources-main/images/client.png" alt="">
+                </div>
+                <div class="content three">
+                    <h1>We are providing the best and suitable home insurance services for the people who are interested to treatment</h1>            
+                    <h1>Ilham Yuda</h1>              
+                    <h1>Businessman</h1>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
